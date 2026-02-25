@@ -1,5 +1,3 @@
-Hieronder staat de **ruwe Markdown broncode**. Je kan dit rechtstreeks kopiëren naar je leerplatform of GitHub.
-
 # De Digitale Kluis
 
 Je schrijft een Python-programma dat een geheime code beveiligt.  
@@ -11,9 +9,7 @@ cijfer2 = 7
 cijfer3 = 1
 ```
 
-De gebruiker moet deze code **cijfer per cijfer** raden.
-
-De gebruiker mag onbeperkt proberen, maar het aantal pogingen moet worden bijgehouden.
+De gebruiker moet deze code **cijfer per cijfer** raden. De gebruiker mag onbeperkt proberen, maar het aantal pogingen moet worden bijgehouden.
 
 ---
 
@@ -24,7 +20,6 @@ De gebruiker mag onbeperkt proberen, maar het aantal pogingen moet worden bijgeh
 Wanneer het programma start, verschijnt:
 
 ```
-Welkom bij het kluis-spel!
 Raad de drie cijfers in de juiste volgorde.
 ```
 
@@ -41,20 +36,9 @@ Raad het eerste cijfer:
 - Als het antwoord **fout** is:
 
 ```
-Fout. Probeer opnieuw.
-Raad het eerste cijfer:
+Fout. Raad het eerste opnieuw.
 ```
-
-Dit blijft herhalen tot het juiste cijfer wordt ingevoerd.
-
-- Als het antwoord **juist** is:
-
-```
-Eerste cijfer correct!
-```
-
-Pas daarna mag het programma verdergaan naar het tweede cijfer.
-
+Dit blijft herhalen tot het juiste cijfer wordt ingevoerd. Pas daarna mag het programma verdergaan naar het tweede cijfer.
 ---
 
 ### 3️⃣ Tweede cijfer raden
@@ -68,16 +52,9 @@ Raad het tweede cijfer:
 - Bij een fout antwoord:
 
 ```
-Fout. Probeer opnieuw.
-Raad het tweede cijfer:
+Fout. Raad het tweede opnieuw.
 ```
-
-- Bij een correct antwoord:
-
-```
-Tweede cijfer correct!
-```
-
+Dit blijft herhalen tot het juiste cijfer wordt ingevoerd. Pas daarna mag het programma verdergaan naar het laatste cijfer.
 ---
 
 ### 4️⃣ Derde cijfer raden
@@ -91,16 +68,8 @@ Raad het derde cijfer:
 - Bij een fout antwoord:
 
 ```
-Fout. Probeer opnieuw.
-Raad het derde cijfer:
+Fout. Raad het derde opnieuw.
 ```
-
-- Bij een correct antwoord:
-
-```
-Derde cijfer correct!
-```
-
 ---
 
 ### 5️⃣ Wanneer de volledige code geraden is
@@ -111,8 +80,7 @@ Op het einde verschijnt:
 Proficiat, u heeft de code geraden in X beurten!
 ```
 
-**X** is het totaal aantal keren dat de gebruiker een cijfer heeft ingevoerd.  
-Elke invoer telt als één poging, ook als die fout is.
+**X** is het totaal aantal keren dat de gebruiker een cijfer heeft ingevoerd. Elke invoer telt als één poging, ook als die fout is.
 
 ---
 
@@ -121,7 +89,3 @@ Elke invoer telt als één poging, ook als die fout is.
 - Wanneer moet je de teller verhogen?
 - Wanneer stopt een `while`-lus?
 - Wat betekent `!=` precies?
-
-```
-
-```

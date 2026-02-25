@@ -3,4 +3,4 @@
     - stdin: "3\n7\n1\n"
       stdout: "Raad de drie cijfers in de juiste volgorde.\nProficiat, u heeft de code geraden in 3 beurten!\n"
     - stdin: "1\n3\n7\n1\n"
-    stdout: "Raad de drie cijfers in de juiste volgorde.\nProficiat, u heeft de code geraden in 4 beurten!\n"
+      stdout: "Raad de drie cijfers in de juiste volgorde.\nProficiat, u heeft de code geraden in 4 beurten!\n"

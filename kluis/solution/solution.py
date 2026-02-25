@@ -5,7 +5,6 @@ cijfer3 = 1
 
 pogingen = 0
 
-print("Welkom bij het kluis-spel!")
 print("Raad de drie cijfers in de juiste volgorde.\n")
 
 # Eerste cijfer
@@ -13,17 +12,15 @@ gok = int(input("Raad het eerste cijfer: "))
 pogingen += 1
 
 while gok != cijfer1:
-    print("Fout. Probeer opnieuw.")
-    gok = int(input("Raad het eerste cijfer: "))
+    gok = int(input("Raad het eerste cijfer opnieuw: "))
     pogingen += 1
 
 # Tweede cijfer
-gok = int(input("Raad het tweede cijfer: "))
+gok = int(input("Raad het tweede cijfer opnieuw: "))
 pogingen += 1
 
 while gok != cijfer2:
-    print("Fout. Probeer opnieuw.")
-    gok = int(input("Raad het tweede cijfer: "))
+    gok = int(input("Raad het tweede cijfer opnieuw: "))
     pogingen += 1
 
 # Derde cijfer
@@ -31,7 +28,6 @@ gok = int(input("Raad het derde cijfer: "))
 pogingen += 1
 
 while gok != cijfer3:
-    print("Fout. Probeer opnieuw.")
     gok = int(input("Raad het derde cijfer: "))
     pogingen += 1
 

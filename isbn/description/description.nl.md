@@ -42,7 +42,7 @@ Daarna bereken je van die som, de **rest bij deling door 11 (modulus)**. Bijvoor
 
 Vergelijk het berekende controlecijfer met het ingegeven controlecijfer (`d10`).
 
-Als controle_berekend niet gelijk is aan **d10**, toont het programma:
+Als controle_berekend **niet gelijk** is aan **d10**, toont het programma:
   > Ongeldig ISBN-nummer.
 
 anders toont het programma

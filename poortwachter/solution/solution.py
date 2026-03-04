@@ -5,15 +5,15 @@ code = int(input("Geef je badgecode (geheel getal): "))
 controle = int(input("Geef het controlegetal (geheel getal): "))
 
 verwacht_wachtwoord = "Seismologie"
-verwacht_badge = 404
+verwacht_code = 404
 # berekening controlegetal volgens de regel
-verwacht_controle = (badge // 10) + (badge % 10)
+verwacht_controle = (code // 10) + (code % 10)
 
 if wachtwoord != verwacht_wachtwoord:
     print("Fout wachtwoord.")
 elif controle != verwacht_controle:
     print("Controlegetal klopt niet.")
-elif code != verwacht_badge:
+elif code != verwacht_code:
     print("Ongeldige code.")
 else:
     print("Toegang verleend. De poort schuift open.")

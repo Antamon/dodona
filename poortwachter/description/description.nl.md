@@ -27,11 +27,9 @@ Vraag aan de gebruiker:
 
 De poort werkt volgens de volgende regels:
 
-- Het juiste wachtwoord is  
-  `"Seismologie"`
+- Het juiste wachtwoord is `"Seismologie"`
 
-- De juiste badgecode is  
-  `404`
+- De juiste code is `404`
 
 - Het **controlegetal** moet gelijk zijn aan:
     - code gedeeld door 10 zonder restwaarde
@@ -56,8 +54,8 @@ Controleer in deze volgorde:
 2. Anders, als het controlegetal **niet gelijk** is aan de berekende waarde:
     > Controlegetal klopt niet.
 
-3. Anders, als de code **niet gelijk** is aan `407`:
-    > Controlegetal klopt niet.
+3. Anders, als de code **niet gelijk** is aan `404`:
+    > Ongeldige code.
 
 4. Als alles correct is:
     > Toegang verleend. De poort schuift open.

@@ -15,6 +15,6 @@ if wachtwoord != verwacht_wachtwoord:
 elif controle != verwacht_controle:
     print("Controlegetal klopt niet.")
 elif code != verwacht_badge:
-    print("Ongeldige badge.")
+    print("Ongeldige code.")
 else:
     print("Toegang verleend. De poort schuift open.")

@@ -4,9 +4,8 @@ wachtwoord = input("Geef het wachtwoord: ")
 code = int(input("Geef je badgecode (geheel getal): "))
 controle = int(input("Geef het controlegetal (geheel getal): "))
 
-verwacht_wachtwoord = "AETHER"
-verwacht_badge = 407
-
+verwacht_wachtwoord = "Seismologie"
+verwacht_badge = 404
 # berekening controlegetal volgens de regel
 verwacht_controle = (badge // 10) + (badge % 10)
 
